@@ -1,0 +1,15 @@
+clear,clc;
+t=linspace(-pi,pi,20);
+y=1./(1+exp(-t));
+subplot(2,2,1);bar(t,y,'g');
+xlabel('t');ylabel('y');
+title('bar(t,y,''g'')');
+subplot(2,2,2);stairs(t,y,'b');
+xlabel('t');ylabel('y');
+title('stairs(t,y,''b'')');
+subplot(2,2,3);stem(t,y,'k');
+xlabel('t');ylabel('y');
+title('stem(t,y,''k'')');
+subplot(2,2,4);loglog(t,y,'r');
+xlabel('t');ylabel('y');
+title('loglog(t,y,''r'')');

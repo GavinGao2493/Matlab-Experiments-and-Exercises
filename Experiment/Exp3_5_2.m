@@ -1,0 +1,13 @@
+clc,clear
+a1=1:100;
+a2=1:1000;
+a3=1:10000;
+b1=1./(a1.^2);
+b2=1./(a2.^2);
+b3=1./(a3.^2);
+ans1=sum(b1);
+ans2=sum(b2);
+ans3=sum(b3);
+disp(['n=100,ans=',num2str(ans1),',pi^2/6=',num2str(pi*pi/6)]);
+disp(['n=1000,ans=',num2str(ans2),',pi^2/6=',num2str(pi*pi/6)]);
+disp(['n=10000,ans=',num2str(ans3),',pi^2/6=',num2str(pi*pi/6)]);

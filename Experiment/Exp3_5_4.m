@@ -1,0 +1,13 @@
+clc,clear
+a1=1:100;
+a2=1:1000;
+a3=1:10000;
+b1=((a1*2).^2)./((a1*2-1).*(a1*2+1));
+b2=((a2*2).^2)./((a2*2-1).*(a2*2+1));
+b3=((a3*2).^2)./((a3*2-1).*(a3*2+1));
+ans1=prod(b1);
+ans2=prod(b2);
+ans3=prod(b3);
+disp(['n=100,ans=',num2str(ans1),',pi/2=',num2str(pi/2)]);
+disp(['n=1000,ans=',num2str(ans2),',pi/2=',num2str(pi/2)]);
+disp(['n=10000,ans=',num2str(ans3),',pi/2=',num2str(pi/2)]);
