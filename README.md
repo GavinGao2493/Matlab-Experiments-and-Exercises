@@ -4,11 +4,11 @@ This repository contains the experimental code and post class exercise code that
 
 
 
-Book information:
-MATLAB Programming Tutorial (Third Edition)
-Weiguo Liu
-China Water&Power Press
-ISBN: 9787517053958
+Book information:</br>
+MATLAB Programming Tutorial (Third Edition)</br>
+Weiguo Liu</br>
+China Water&Power Press</br>
+ISBN: 9787517053958</br>
 
 
 
@@ -18,7 +18,7 @@ ISBN: 9787517053958
 
 
 
-MATLAB程序设计教程(第三版)
-刘卫国
-中国水利水电出版社
-ISBN: 9787517053958
+MATLAB程序设计教程(第三版)</br>
+刘卫国</br>
+中国水利水电出版社</br>
+ISBN: 9787517053958</br>
